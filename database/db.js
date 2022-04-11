@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://api.delnichi.xyz';
+var url = 'https://restapi.delnichi.xyz';
 try {
-if(url == 'https://api.delnichi.xyz') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://restapi.delnichi.xyz') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
